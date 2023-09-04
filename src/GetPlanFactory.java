@@ -7,8 +7,9 @@ public class GetPlanFactory {
 			return new CommercialPlan();
 		} else if (planType.equalsIgnoreCase("ip")) {
 			return new InstitutionalPlan();
-		}
+		}else if (planType.equalsIgnoreCase("sp")) {
+			return new StudentPlan();
 		return null;
 	}
-}
+} }
 

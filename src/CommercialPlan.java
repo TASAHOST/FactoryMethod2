@@ -1,9 +1,8 @@
 
 public class CommercialPlan extends Plan {
 
-	@Override
+	//@Override
 	void getRate() {
-		// TODO Auto-generated method stub
 		rate=7.50;
 	}
 

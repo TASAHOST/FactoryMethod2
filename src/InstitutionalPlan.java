@@ -1,7 +1,7 @@
 
 public class InstitutionalPlan extends Plan {
 
-	@Override
+	//@Override
 	public void getRate() {
 		// TODO Auto-generated method stub
 			rate=5.50;
